@@ -4,8 +4,8 @@
 def find_greatest_number(incoming_list):
     incoming_list = [1,2,3,4,5,6,7,8,9,10]
     return max(incoming_list)
-    
 
+    
     """
     Required parameter, incoming_list, should be a list.
     
@@ -17,7 +17,8 @@ def find_greatest_number(incoming_list):
 def find_least_number(incoming_list):
     incoming_list = [1,2,3,4,5,6,7,8,9,10]
     return min(incoming_list)
-    
+  
+
     """
     Required parameter, incoming_list, should be a list.
     Find the smallest/least number in the list.
@@ -43,8 +44,8 @@ def longest_value_key(incoming_dict):
     'Boston':'Massachusetts',
     'Raleigh': 'North Carolina'}
 
-    return biggest_capital = max(incoming_dict, key = lambda x: len(set(biggest_capital[x])))
-    
+    biggest_capital = max(incoming_dict, key = lambda x: len(set(biggest_capital[x])))
+    return biggest_capital
     """
     Required parameter, incoming_dict, should be a dict.
     Find the KEY that has a value with the highest length, use the len() function
