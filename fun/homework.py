@@ -23,7 +23,7 @@ def add_list_numbers(incoming_list):
 
 
 def longest_value_key(incoming_dict):
-    biggest_capital = max(incoming_dict, key = lambda x: len(set(biggest_capital[x])))
-    return biggest_capital
+    return len(max(incoming_dict, key=len))
+    
 
 
