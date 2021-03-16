@@ -19,7 +19,7 @@ def add_list_numbers(incoming_list):
 
     if incoming_list:
         sum_list = sum(incoming_list)
-    else
+    else:
         sum_list = 0
     return sum_list
 
